@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #29262B;
 }
 
 .App-logo {
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #29262B;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +37,169 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'rullenregular';
+  src: url('./fonts/rullen-webfont.woff2') format('woff2'),
+       url('./fonts/rullen-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'visionblack';
+  src: url('./fonts/vision-black-webfont.woff2') format('woff2'),
+       url('./fonts/vision-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'visionblack_italic';
+  src: url('./fonts/vision-blackitalic-webfont.woff2') format('woff2'),
+       url('./fonts/vision-blackitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'visionbold';
+  src: url('./fonts/vision-bold-webfont.woff2') format('woff2'),
+       url('./fonts/vision-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'visionbold_italic';
+  src: url('./fonts/vision-bolditalic-webfont.woff2') format('woff2'),
+       url('./fonts/vision-bolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'visionheavy';
+  src: url('./fonts/vision-heavy-webfont.woff2') format('woff2'),
+       url('./fonts/vision-heavy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'visionheavy_italic';
+  src: url('./fonts/vision-heavyitalic-webfont.woff2') format('woff2'),
+       url('./fonts/vision-heavyitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'visionitalic';
+  src: url('./fonts/vision-italic-webfont.woff2') format('woff2'),
+       url('./fonts/vision-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'visionlight';
+  src: url('./fonts/vision-light-webfont.woff2') format('woff2'),
+       url('./fonts/vision-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'visionlight_italic';
+  src: url('./fonts/vision-lightitalic-webfont.woff2') format('woff2'),
+       url('./fonts/vision-lightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'visionregular';
+  src: url('./fonts/vision-regular-webfont.woff2') format('woff2'),
+       url('./fonts/vision-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'visionthin';
+  src: url('./fonts/vision-thin-webfont.woff2') format('woff2'),
+       url('./fonts/vision-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.Top{
+  background-color: #29262B;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+h1 {
+  font-family: 'rullenregular', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
+  }
+
+  h2 {
+    font-family: 'visionregular', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    color: #E3A2EE;
+    }
